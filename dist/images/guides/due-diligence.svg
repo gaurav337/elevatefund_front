@@ -1,0 +1,76 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Pattern -->
+    <defs>
+        <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+            <rect width="30" height="30" fill="none" stroke="#e0e7ff" stroke-width="1"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    
+    <!-- Checklist -->
+    <g transform="translate(200,100)">
+        <!-- Clipboard -->
+        <rect x="0" y="0" width="400" height="200" rx="10" fill="#bfdbfe"/>
+        <rect x="20" y="20" width="360" height="160" rx="5" fill="white"/>
+        
+        <!-- Checklist Items -->
+        <g transform="translate(40,50)">
+            <!-- Item 1 -->
+            <rect x="0" y="0" width="20" height="20" rx="4" fill="#60a5fa"/>
+            <path d="M 4 10 L 8 14 L 16 6" 
+                  stroke="white" 
+                  stroke-width="2" 
+                  fill="none"/>
+            <text x="40" y="15" 
+                  font-family="Arial" 
+                  font-size="14" 
+                  fill="#1e40af">Financial Analysis</text>
+            
+            <!-- Item 2 -->
+            <rect x="0" y="40" width="20" height="20" rx="4" fill="#60a5fa"/>
+            <path d="M 4 50 L 8 54 L 16 46" 
+                  stroke="white" 
+                  stroke-width="2" 
+                  fill="none"/>
+            <text x="40" y="55" 
+                  font-family="Arial" 
+                  font-size="14" 
+                  fill="#1e40af">Market Research</text>
+            
+            <!-- Item 3 -->
+            <rect x="0" y="80" width="20" height="20" rx="4" fill="#60a5fa"/>
+            <path d="M 4 90 L 8 94 L 16 86" 
+                  stroke="white" 
+                  stroke-width="2" 
+                  fill="none"/>
+            <text x="40" y="95" 
+                  font-family="Arial" 
+                  font-size="14" 
+                  fill="#1e40af">Legal Review</text>
+        </g>
+    </g>
+    
+    <!-- Magnifying Glass -->
+    <g transform="translate(650,150)">
+        <circle cx="0" cy="0" r="40" 
+                fill="none" 
+                stroke="#3b82f6" 
+                stroke-width="8"/>
+        <line x1="30" y1="30" x2="60" y2="60" 
+              stroke="#3b82f6" 
+              stroke-width="8" 
+              stroke-linecap="round"/>
+    </g>
+    
+    <!-- Title -->
+    <text x="400" y="350" 
+          text-anchor="middle" 
+          font-family="Arial" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="#1e40af">
+        Due Diligence Guide
+    </text>
+</svg> 

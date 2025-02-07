@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Circle -->
+    <circle cx="150" cy="150" r="120" fill="#bfdbfe"/>
+    
+    <!-- Head -->
+    <circle cx="150" cy="120" r="60" fill="#60a5fa"/>
+    
+    <!-- Body -->
+    <path d="M150 180 Q 150 280 150 280 H 220 Q 220 230 150 180" fill="#60a5fa"/>
+    <path d="M150 180 Q 150 280 150 280 H 80 Q 80 230 150 180" fill="#60a5fa"/>
+    
+    <!-- Hair -->
+    <path d="M150 60 Q 90 80 90 130 Q 90 160 150 160 Q 210 160 210 130 Q 210 80 150 60" fill="#1e40af"/>
+    <path d="M90 130 Q 90 180 120 200" fill="#1e40af"/>
+    <path d="M210 130 Q 210 180 180 200" fill="#1e40af"/>
+    
+    <!-- Face Features -->
+    <circle cx="130" cy="110" r="5" fill="#1e3a8a"/>
+    <circle cx="170" cy="110" r="5" fill="#1e3a8a"/>
+    <path d="M130 140 Q 150 160 170 140" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+    
+    <!-- Earrings -->
+    <circle cx="90" cy="120" r="5" fill="#fbbf24"/>
+    <circle cx="210" cy="120" r="5" fill="#fbbf24"/>
+</svg> 

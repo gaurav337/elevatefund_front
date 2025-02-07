@@ -1,0 +1,317 @@
+@import '../../styles/variables.module.css';
+
+.container {
+    max-width: var(--container-2xl);
+    margin: 0 auto;
+    padding: var(--spacing-8);
+    background: white;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: var(--spacing-16);
+    padding: var(--spacing-16) var(--spacing-8);
+    background: linear-gradient(135deg, var(--primary-50) 0%, var(--gray-50) 100%);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-lg);
+}
+
+.title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    color: var(--gray-800);
+    margin-bottom: var(--spacing-4);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: var(--font-size-xl);
+    color: var(--gray-600);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-12);
+    flex-wrap: wrap;
+}
+
+.categoryButton {
+    padding: var(--spacing-3) var(--spacing-6);
+    background: white;
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-full);
+    color: var(--gray-600);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.categoryButton:hover {
+    border-color: var(--primary-400);
+    color: var(--primary-600);
+}
+
+.categoryButton.active {
+    background: var(--primary-600);
+    border-color: var(--primary-600);
+    color: white;
+}
+
+.guides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-8);
+    margin-bottom: var(--spacing-20);
+}
+
+.guideCard {
+    background: white;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    transition: var(--transition-base);
+}
+
+.guideCard:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+}
+
+.guideImage {
+    height: 200px;
+    overflow: hidden;
+}
+
+.guideImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.guideCard:hover .guideImage img {
+    transform: scale(1.05);
+}
+
+.guideContent {
+    padding: var(--spacing-6);
+}
+
+.guideMeta {
+    display: flex;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+}
+
+.difficulty {
+    padding: var(--spacing-1) var(--spacing-3);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.beginner {
+    background: var(--green-100);
+    color: var(--green-700);
+}
+
+.intermediate {
+    background: var(--blue-100);
+    color: var(--blue-700);
+}
+
+.advanced {
+    background: var(--purple-100);
+    color: var(--purple-700);
+}
+
+.readTime {
+    color: var(--gray-500);
+    font-size: var(--font-size-sm);
+}
+
+.guideContent h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: var(--spacing-2);
+    line-height: 1.4;
+}
+
+.guideContent p {
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-4);
+    line-height: 1.6;
+}
+
+.readMore {
+    color: var(--primary-600);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition-base);
+}
+
+.readMore:hover {
+    color: var(--primary-700);
+}
+
+.newsletter {
+    margin-bottom: var(--spacing-20);
+    padding: var(--spacing-16);
+    background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+    border-radius: var(--radius-2xl);
+    color: white;
+    text-align: center;
+}
+
+.newsletterContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    margin-bottom: var(--spacing-4);
+}
+
+.newsletter p {
+    font-size: var(--font-size-lg);
+    opacity: 0.9;
+    margin-bottom: var(--spacing-8);
+}
+
+.subscribeForm {
+    display: flex;
+    gap: var(--spacing-4);
+}
+
+.subscribeInput {
+    flex: 1;
+    padding: var(--spacing-4);
+    border: none;
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-base);
+}
+
+.subscribeInput:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-200);
+}
+
+.subscribeButton {
+    padding: var(--spacing-4) var(--spacing-8);
+    background: var(--primary-800);
+    color: white;
+    border: none;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.subscribeButton:hover {
+    background: var(--primary-900);
+    transform: translateY(-2px);
+}
+
+.support {
+    text-align: center;
+    margin-bottom: var(--spacing-8);
+}
+
+.support h2 {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: var(--spacing-4);
+}
+
+.support p {
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-8);
+}
+
+.supportButton {
+    display: inline-flex;
+    align-items: center;
+    padding: var(--spacing-4) var(--spacing-8);
+    background: var(--primary-600);
+    color: white;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition-base);
+}
+
+.supportButton:hover {
+    background: var(--primary-700);
+    transform: translateY(-2px);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .guides {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: var(--spacing-4);
+    }
+
+    .header {
+        padding: var(--spacing-8) var(--spacing-4);
+        margin-bottom: var(--spacing-8);
+    }
+
+    .title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .subtitle {
+        font-size: var(--font-size-lg);
+    }
+
+    .categories {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: var(--spacing-2);
+        justify-content: flex-start;
+    }
+
+    .categoryButton {
+        white-space: nowrap;
+    }
+
+    .subscribeForm {
+        flex-direction: column;
+    }
+
+    .subscribeButton {
+        width: 100%;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .title {
+        font-size: var(--font-size-2xl);
+    }
+
+    .guideContent h2 {
+        font-size: var(--font-size-lg);
+    }
+
+    .newsletter {
+        padding: var(--spacing-8);
+    }
+} 

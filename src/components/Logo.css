@@ -1,0 +1,40 @@
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link .space-x-2 > * + * {
+  margin-left: 0.5rem;
+}
+
+.logo-icon {
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+}
+
+.logo-circle {
+  fill: #4f46e5;
+}
+
+:root[class~="dark"] .logo-circle {
+  fill: #6366f1;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+:root[class~="dark"] .logo-text {
+  color: #ffffff;
+}
+
+.logo-highlight {
+  color: #4f46e5;
+}
+
+:root[class~="dark"] .logo-highlight {
+  color: #818cf8;
+} 

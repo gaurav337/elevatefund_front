@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Circle -->
+    <circle cx="150" cy="150" r="120" fill="#bfdbfe"/>
+    
+    <!-- Head -->
+    <circle cx="150" cy="120" r="60" fill="#60a5fa"/>
+    
+    <!-- Body -->
+    <path d="M150 180 Q 150 280 150 280 H 220 Q 220 230 150 180" fill="#60a5fa"/>
+    <path d="M150 180 Q 150 280 150 280 H 80 Q 80 230 150 180" fill="#60a5fa"/>
+    
+    <!-- Hair -->
+    <path d="M90 100 L 210 100 L 210 60 L 90 60 Z" fill="#1e40af"/>
+    <rect x="90" y="60" width="120" height="40" fill="#1e40af"/>
+    
+    <!-- Face Features -->
+    <circle cx="130" cy="110" r="5" fill="#1e3a8a"/>
+    <circle cx="170" cy="110" r="5" fill="#1e3a8a"/>
+    <path d="M130 140 Q 150 150 170 140" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+    
+    <!-- Glasses -->
+    <rect x="120" y="105" width="20" height="10" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+    <rect x="160" y="105" width="20" height="10" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+    <line x1="140" y1="110" x2="160" y2="110" stroke="#1e3a8a" stroke-width="2"/>
+</svg> 

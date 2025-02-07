@@ -1,0 +1,72 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Pattern -->
+    <defs>
+        <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+            <circle cx="10" cy="10" r="1" fill="#e0e7ff"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#dots)"/>
+    
+    <!-- Investment Types -->
+    <g transform="translate(100,100)">
+        <!-- Real Estate -->
+        <rect x="0" y="0" width="120" height="120" rx="20" fill="#bfdbfe"/>
+        <text x="60" y="70" 
+              text-anchor="middle" 
+              font-family="Arial" 
+              font-size="14" 
+              font-weight="bold" 
+              fill="#1e40af">Real Estate</text>
+    </g>
+    
+    <g transform="translate(250,100)">
+        <!-- Startups -->
+        <rect x="0" y="0" width="120" height="120" rx="20" fill="#93c5fd"/>
+        <text x="60" y="70" 
+              text-anchor="middle" 
+              font-family="Arial" 
+              font-size="14" 
+              font-weight="bold" 
+              fill="#1e40af">Startups</text>
+    </g>
+    
+    <g transform="translate(400,100)">
+        <!-- Green Energy -->
+        <rect x="0" y="0" width="120" height="120" rx="20" fill="#60a5fa"/>
+        <text x="60" y="70" 
+              text-anchor="middle" 
+              font-family="Arial" 
+              font-size="14" 
+              font-weight="bold" 
+              fill="#1e40af">Green Energy</text>
+    </g>
+    
+    <g transform="translate(550,100)">
+        <!-- Tech -->
+        <rect x="0" y="0" width="120" height="120" rx="20" fill="#3b82f6"/>
+        <text x="60" y="70" 
+              text-anchor="middle" 
+              font-family="Arial" 
+              font-size="14" 
+              font-weight="bold" 
+              fill="#1e40af">Technology</text>
+    </g>
+    
+    <!-- Connecting Lines -->
+    <path d="M 160 160 L 250 160 M 370 160 L 400 160 M 520 160 L 550 160"
+          stroke="#60a5fa"
+          stroke-width="2"
+          stroke-dasharray="4 2"/>
+    
+    <!-- Title -->
+    <text x="400" y="350" 
+          text-anchor="middle" 
+          font-family="Arial" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="#1e40af">
+        Investment Types
+    </text>
+</svg> 

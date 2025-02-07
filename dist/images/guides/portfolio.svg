@@ -1,0 +1,74 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Pattern -->
+    <defs>
+        <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+            <circle cx="10" cy="10" r="1" fill="#e0e7ff"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#dots)"/>
+    
+    <!-- Portfolio Pie Chart -->
+    <g transform="translate(400,200)">
+        <!-- Pie Segments -->
+        <path d="M 0 0 L 100 0 A 100 100 0 0 1 70.7 70.7 Z" fill="#bfdbfe"/>
+        <path d="M 0 0 L 70.7 70.7 A 100 100 0 0 1 0 100 Z" fill="#93c5fd"/>
+        <path d="M 0 0 L 0 100 A 100 100 0 0 1 -70.7 70.7 Z" fill="#60a5fa"/>
+        <path d="M 0 0 L -70.7 70.7 A 100 100 0 0 1 -100 0 Z" fill="#3b82f6"/>
+        <path d="M 0 0 L -100 0 A 100 100 0 0 1 -70.7 -70.7 Z" fill="#2563eb"/>
+        <path d="M 0 0 L -70.7 -70.7 A 100 100 0 0 1 0 -100 Z" fill="#1d4ed8"/>
+        <path d="M 0 0 L 0 -100 A 100 100 0 0 1 100 0 Z" fill="#1e40af"/>
+        
+        <!-- Center Circle -->
+        <circle cx="0" cy="0" r="60" fill="white"/>
+        <text x="0" y="10" 
+              text-anchor="middle" 
+              font-family="Arial" 
+              font-size="24" 
+              font-weight="bold" 
+              fill="#1e40af">Portfolio</text>
+    </g>
+    
+    <!-- Legend -->
+    <g transform="translate(650,100)">
+        <g transform="translate(0,0)">
+            <rect width="20" height="20" fill="#bfdbfe"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Real Estate</text>
+        </g>
+        <g transform="translate(0,30)">
+            <rect width="20" height="20" fill="#93c5fd"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Technology</text>
+        </g>
+        <g transform="translate(0,60)">
+            <rect width="20" height="20" fill="#60a5fa"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Healthcare</text>
+        </g>
+        <g transform="translate(0,90)">
+            <rect width="20" height="20" fill="#3b82f6"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Green Energy</text>
+        </g>
+        <g transform="translate(0,120)">
+            <rect width="20" height="20" fill="#2563eb"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Startups</text>
+        </g>
+        <g transform="translate(0,150)">
+            <rect width="20" height="20" fill="#1d4ed8"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Bonds</text>
+        </g>
+        <g transform="translate(0,180)">
+            <rect width="20" height="20" fill="#1e40af"/>
+            <text x="30" y="15" font-family="Arial" font-size="12" fill="#1e40af">Cash</text>
+        </g>
+    </g>
+    
+    <!-- Title -->
+    <text x="400" y="350" 
+          text-anchor="middle" 
+          font-family="Arial" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="#1e40af">
+        Portfolio Diversification
+    </text>
+</svg> 

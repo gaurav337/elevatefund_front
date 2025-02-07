@@ -1,0 +1,39 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#f0f9ff"/>
+    
+    <!-- Background Pattern -->
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e0e7ff" stroke-width="1"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    
+    <!-- Graph Lines -->
+    <path d="M 100 300 Q 200 100 300 200 T 500 150 T 700 50" 
+          fill="none" 
+          stroke="#60a5fa" 
+          stroke-width="4"
+          stroke-linecap="round"/>
+    
+    <!-- Graph Points -->
+    <circle cx="100" cy="300" r="8" fill="#3b82f6"/>
+    <circle cx="300" cy="200" r="8" fill="#3b82f6"/>
+    <circle cx="500" cy="150" r="8" fill="#3b82f6"/>
+    <circle cx="700" cy="50" r="8" fill="#3b82f6"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="150" cy="100" r="30" fill="#bfdbfe" opacity="0.5"/>
+    <circle cx="650" cy="250" r="40" fill="#bfdbfe" opacity="0.5"/>
+    <rect x="400" y="50" width="60" height="60" fill="#bfdbfe" opacity="0.5"/>
+    
+    <!-- Title -->
+    <text x="400" y="350" 
+          text-anchor="middle" 
+          font-family="Arial" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="#1e40af">
+        Future of Investments
+    </text>
+</svg> 
